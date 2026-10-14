@@ -1,12 +1,24 @@
-const { multiplicar, dividir } = require("./calculadora");
+const { somar, subtrair, multiplicar, dividir } = require("./calculadora");
 
-/* --------- SOMA ------------- */
-/* Somar dois números positivos */
-/* Somar com números negativos  */
+describe("somar", () => {
+  test("soma dois números", () => {
+    expect(somar(3, 4)).toBe(7);
+  });
 
+  test("soma número com zero", () => {
+    expect(somar(5, 0)).toBe(5);
+  });
+});
 
-/* ------ SUBTRAIR ------ */
-/* Subitrair dois números */
+describe("subtrair", () => {
+  test("subtrai dois números", () => {
+    expect(subtrair(10, 4)).toBe(6);
+  });
+
+  test("subtração com resultado negativo", () => {
+    expect(subtrair(4, 10)).toBe(-6);
+  });
+});
 
 
 describe("multiplicar", () => {
