@@ -3,6 +3,7 @@ function somar(a, b) {
   return a + b;
 }
 
+
 //FUNÇÃO SUBTRAIR
 
 function subtrair(a, b) {

@@ -1,4 +1,4 @@
-const {  multiplicar, dividir } = require("./calculadora");
+const {   somar, subtrair, multiplicar, dividir } = require("./calculadora");
 
 // console.log("7 + 5 =", multiplicar(7, 5));
 
